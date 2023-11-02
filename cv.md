@@ -9,7 +9,7 @@
 - Phone: +7995*-*-**
 - Telegram: https://t.me/stardustmeg
 - E-mail: margaret.golubeva@mail.ru
-- [GitHub](https://github.com/Margarita-Golubeva)
+- [GitHub](https://github.com/stardustmeg)
 - [LinkedIn](https://www.linkedin.com/in/margarita-golubeva-742605114/)
 
 *************
