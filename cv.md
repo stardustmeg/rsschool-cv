@@ -1,5 +1,7 @@
 # Margarita Golubeva
 
+![Photo](/Photo.jpg)
+
 ************
 
 ## My Contact Info
