@@ -1,18 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My CV</title>
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/media.css">
 
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-
+   <link rel="shortcut icon" href="favicon.ico" >
 </head>
 
 <body>
+
+    <!-- Header
+    ================================================== -->
+    <header id="home">
+      <div class="header-wrapper">
+         <nav id="nav-wrap"> 
+            <ul id="nav" class="nav">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#education">Education</a></li>
+               <li><a href="#experience">Experience</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">My Projects</a></li>
+               <li><a href="#contacts">Contact Me</a></li>
+            </ul>
+         </nav>
     
+         <div class="home-page">
+
+            <div class="home-text">
+               <h1 class="headline-title">I'm Margarita Golubeva.</h1>
+               <h3>I'm a Russia based rookie web-developer, creating awesome projects for my RS-School course.
+                  <br>Let's <a href="#about">start scrolling</a>
+                  and learn more <a href="#about">about me</a>.
+               </h3>
+               
+               <div class="social-list">
+                  <ul class="social">
+                     <li><a href="https://t.me/stardustmeg" title="Telegram" target="_blank"><img src="https://www.svgrepo.com/show/314769/telegram.svg" width="46" alt="Telegram logo"></a></li>
+                     <li><a href="https://github.com/stardustmeg" title="GitHub" target="_blank"><img src="https://www.freeiconspng.com/uploads/github-logo-icon-5.png" width="53" alt="GitHub logo"></a></li>
+                     <li><a href="https://www.linkedin.com/in/margarita-golubeva-742605114/" title="LinkedIn" target="_blank"><img src="https://www.freeiconspng.com/uploads/0996-linkedin-logo-12.png" width="57" alt="LinkedIn logo"></a></li>
+                     <li><a href="mailto:margaret.golubeva@mail.ru" title="Mail" target="_blank"><img src="https://www.freeiconspng.com/uploads/yahoo-mail-icon-14.png" width="50" alt="Mail logo"></a></li>
+                  </ul>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+   </header> <!-- Header End -->
+ 
+ 
+   <div class="page-wrapper">
+      <!-- About Section
+   ================================================== -->
+   <section id="about">
+      <div class="about-wrapper">
+
+         <div class="photo">
+            <img class="profile-pic" src="images/profilepic.jpg" alt="My photo" width="200">
+         </div>
+ 
+         <div class="about-description">
+            <h2>About Me</h2>
+            <p class="course-description">I'm an eager and persistent learner who's passionate about getting into a new field.
+               My work as an English teacher for IT specialists has led me to realizing that I'm really into the IT sphere.
+               I have excellent communication skills, logical mindset, and willingness to learn.
+               So I'm hoping to put my skills and knowledge into developing together with your company.
+            </p>
+         </div>
+ 
+      </div>
+   </section> <!-- About Section End-->
+ 
+ 
+   <!-- Education
+   ----------------------------------------------- -->
+   <section id="education">
+      <div class="education-wrapper">
+         <div class="headline">
+            <h2><span>Education</span></h2>
+         </div>
+ 
+         <div class="items-wrapper">
+            <div class="education-item">
+               <h3>RS-School</h3>
+               <p class="info">Front-End Development Course <span>&bull;</span> <em class="date">2024</em></p>
+ 
+               <p class="course-description">
+                  Basics of Git, GitHub, commit and pull request.
+                  Creating an adaptive layout of a project.
+                  Basics of JavaScript.
+                  Learning to solve algorithmic problems.
+                  DOM, DOM Events, Browser API.
+                  Basics of NodeJS.
+                  Interview on basics of HTML/CSS/JS/Algorithms.
+                  Project Match-Match Game on Core JS.
+               </p>
+            </div> <!-- item end -->
+ 
+            <div class="education-item">
+               <h3>VSU named after P.M. Masherov</h3>
+               <p class="info">Philologist, Teacher of Foreign Languages (English and French) and English Literature, Translator/interpreter. <span>&bull;</span> <em class="date">2017</em></p>
+            </div> <!-- item end -->
+ 
+         </div> <!-- items end -->
+ 
+      </div> <!-- End Education -->
+   </section>
+ 
+ 
+   <!-- Work
+   ----------------------------------------------- -->
+   <section id="experience">
+      <div class="experience-wrapper">
+         <div class="headline">
+            <h2><span>Experience</span></h2>
+         </div>
+   
+         <div class="items-wrapper">
+            <h3>Yandex</h3>
+            <p class="info">English Teacher for IT Specialists <span>&bull;</span> <em class="date">February 2023 - current</em></p>
+   
+            <p class="course-description">
+               My responsibilities include organizing coursework and learning materials for the students.
+               I also find approach to different people and create a supportive and positive environment.
+               One of the biggest parts of my work is to rovide personalized feedback to the students.
+               I assess student progress and write reports too.
+            </p>
+         </div><!-- item end -->
+   
+      </div> <!-- End Work -->
+   </section>
+ 
+ 
+   <!-- Skills
+   ----------------------------------------------- -->
+   <section id="skills">
+      <div class="skills-wrapper">
+         
+         <div class="headline">
+            <h2><span>Skills</span></h2>
+         </div>
+ 
+         <div class="items-wrapper">
+            <p class="course-description">Being an English tutor and beginner web-developer I possess the following skills:</p>
+ 
+            <div class="bars">
+               <ul class="skills">
+                  <li><span class="bar-expand html"></span><em>HTML</em></li>
+                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+                  <li><span class="bar-expand js"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand english"></span><em>English</em></li>
+               </ul>
+            </div><!-- end skill-bars -->
+ 
+         </div> <!-- items end -->
+ 
+      </div> <!-- End skills -->
+   </section>
+ 
+ 
+   <!-- Projects Section
+   ================================================== -->
+   <section id="projects">
+      <div class="projects-wrapper">
+ 
+         <div class="projects-description">
+            <h2>Check Out Some of My Projects</h2>
+         </div>
+ 
+         <!-- portfolio-wrapper -->
+         <div id="portfolio-wrapper">
+            
+            <div class="item-wrap">
+               <a href="https://rolling-scopes-school.github.io/margarita-golubeva-JSFEPRESCHOOL2023Q2/library/" title="Library" target="_blank">
+                  <img alt="Library" src="images/portfolio/library.png" width="350">
+               </a>
+            </div> <!-- item end -->
+
+            <div class="item-wrap">
+               <a href="https://rolling-scopes-school.github.io/margarita-golubeva-JSFEPRESCHOOL2023Q2/audio-player/" title="Player" target="_blank">
+                  <img alt="Player" src="images/portfolio/player.png" width="350">
+               </a>
+            </div> <!-- item end -->
+
+            <div class="item-wrap">
+               <a href="https://rolling-scopes-school.github.io/margarita-golubeva-JSFEPRESCHOOL2023Q2/image-gallery/" title="Gallery" target="_blank">
+                  <img alt="Gallery" src="images/portfolio/gallery.png" width="350">
+               </a>
+            </div> <!-- item end -->
+ 
+         </div> <!-- portfolio-wrapper end -->
+
+      </div> <!-- projects Section End-->
+   </section>
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contacts">
+      <div class="contacts-wrapper">
+         
+         <div class="contacts-description">
+            <h2><span>Get In Touch</span></h2>
+            <p class="course-description">
+               If you're interested in getting in touch with me, here's my contact info.<br>
+            </p>
+         </div>
+ 
+         <div class="social-list">
+            <ul class="social">
+               <li><a href="https://t.me/stardustmeg" title="Telegram" target="_blank"><img src="https://www.svgrepo.com/show/314769/telegram.svg" width="46" alt="Telegram logo"></a></li>
+               <li><a href="https://github.com/stardustmeg" title="GitHub" target="_blank"><img src="https://www.freeiconspng.com/uploads/github-logo-icon-5.png" width="53" alt="GitHub logo"></a></li>
+               <li><a href="https://www.linkedin.com/in/margarita-golubeva-742605114/" title="LinkedIn" target="_blank"><img src="https://www.freeiconspng.com/uploads/0996-linkedin-logo-12.png" width="57" alt="LinkedIn logo"></a></li>
+               <li><a href="mailto:margaret.golubeva@mail.ru" title="Mail" target="_blank"><img src="https://www.freeiconspng.com/uploads/yahoo-mail-icon-14.png" width="50" alt="Mail logo"></a></li>
+            </ul>
+         </div>
+ 
+      </div>
+   </section> <!-- Contact Section End-->
+ 
+   <!-- footer
+   ================================================== -->
+   <footer>
+      <div class="footer-wrapper">
+         
+         <div class="rs-link">
+            <a href="https://rs.school/js/" title="RS-School" target="_blank">
+               <img alt="RS-School logo" src="https://rs.school/images/partners/logo-rs.svg" width="60">
+            </a>
+         </div>
+
+         <div class="year">2023</div>
+
+         <div>
+            <a href="https://github.com/stardustmeg" title="GitHub" target="_blank">
+               <img class="github-link" alt="GitHub logo" src="https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_Github-512.png" width="50">
+            </a>
+         </div>
+ 
+      </div>
+   </footer> <!-- Footer End-->
+   </div>
+   
+ 
 </body>
 </html>
