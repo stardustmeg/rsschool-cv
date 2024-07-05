@@ -296,6 +296,19 @@ h3 {
   100% { width: 90%;  }
 }
 
+.code-example-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7788a8;
+}
+
+.code {
+  padding: 20px;
+  font-size: 24px;
+  color: #000;
+}
+
 /* PROJECTS */
 
 .projects-wrapper {
